@@ -1,0 +1,22 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Max Kuhn"
+  repo-url: https://github.com/topepo/ncb-com-proposal
+  repo-actions: [edit, issue]
+  navbar:
+    left:
+      - href: index.qmd
+
+format:
+  html:
+    mainfont: 'Libre Franklin'
+    toc: true
+    theme:
+      light:
+        - simplex
+        - kuhn.scss
+      dark:
+        - darkly    
